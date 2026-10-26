@@ -1,0 +1,29 @@
+# # input
+# nilai = int(input("masukkan nilai:"))
+# # proses
+# if nilai >=80 and nilai<=100:
+#     print("Anda mendapatkan nilai A")
+# elif nilai >=70 and nilai <=80:
+#     print("Anda mendapatkan nilai B")
+# elif nilai >=50 and nilai <=70:
+#     print("Anda mendapatkan nilai C")
+# elif nilai >=30 and nilai <=50:
+#     print("Anda mendapatkan nilai D")    
+# elif nilai >=0 and nilai <=20:
+#     print("Anda mendapatkan nilai E")
+# else:
+#     print("Data tidak valid")
+# print("=====Latihan=====")
+
+barang = input("Masukkan nama barang : ")
+harga = int(input("masukkan harga barang : "))
+
+if barang =="kulkas" :
+    print (barang)
+    print (harga - (harga * 0.10))
+elif barang =="tv":
+    print (barang)
+    print (harga - ( 0.05 * harga))
+else:
+    print (barang)
+    print (harga)
